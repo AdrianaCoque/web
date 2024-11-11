@@ -1,0 +1,147 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.cv-container {
+    background-color: #fff;
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+}
+
+/* About Section */
+#about {
+    margin-bottom: 20px;
+}
+
+#about h2 {
+    font-size: 2rem;
+    color: #16a085;
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Education Section */
+#Educacion {
+    margin-bottom: 20px;
+}
+
+#Educacion h2 {
+    font-size: 2rem;
+    color: #16a085;
+    margin-bottom: 10px;
+}
+
+.experience-item h3 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+.experience-item p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* Experience Section */
+#experience {
+    margin-bottom: 20px;
+}
+
+#experience h2 {
+    font-size: 2rem;
+    color: #16a085;
+    margin-bottom: 10px;
+}
+
+.experience-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #7f8c8d;
+}
+
+video {
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* Skills Section */
+#skills {
+    margin-bottom: 20px;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    color: #16a085;
+    margin-bottom: 10px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#skills li {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #7f8c8d;
+}
+
+/* Button */
+button {
+    background-color: #16a085;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1abc9c;
+}
+
+
